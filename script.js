@@ -8,6 +8,6 @@ const enviarFormulario =() => {
         let mensaje = document.getElementById('mensaje').value;
         let numero= 573146597922;
 var win= window.open(`https://wa.me/${numero}?text=Hola%20mi%20nombre%20es%20${nombre}
-%20${apellido}, Asunto:%20${mensaje}`,'_blank');       
+%20${cedula}, Asunto:%20${mensaje}`,'_blank');       
 }
 evento.addEventListener('click', enviarFormulario)
