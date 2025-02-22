@@ -6,7 +6,7 @@ const enviarFormulario =() => {
         let telefono = document.getElementById('telefono').value;
         let correo = document.getElementById('correo').value;
         let mensaje = document.getElementById('mensaje').value;
-        let numero= 573202836596;
+        let numero= 573222737451;
 var win= window.open(`https://wa.me/${numero}?text=Hola%20mi%20nombre%20es%20${nombre}
 %20${apellido}- cedula:%20${cedula}- telefono:%20${telefono}-Correo:%20${correo}- Asunto:%20${mensaje}`,'_blank');       
 }
